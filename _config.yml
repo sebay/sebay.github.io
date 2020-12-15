@@ -9,7 +9,7 @@
 # --------------------------
 title: Sebay                          # the main title
 
-tagline: My Tagline  # it will display as the sub-title
+tagline: On earth, In the cloud, a bit everywhere  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -17,25 +17,27 @@ description: >-                        # used by seo meta and the atom feed
   and focuses on text presentation.
 
 # fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://sebay.github.io'
 
 author: Sebastien Auvray                  # change to your full name
 
-avatar: /assets/img/sample/avatar.jpg   # support internet resources
+avatar: /assets/img/sample/avatar_gears.png   # support internet resources
 
 github:
   username: sebay             # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+#twitter:
+#  username: twitter_username            # change to your twitter username
+
+linkedin:
+  username: auvrays            # change to your linkedin username
 
 social:
-  name: your_full_name                  # it will shows as the copyright owner in Footer
-  email: example@doamin.com             # change to your email address
+  name: Sebastien Auvray                  # it will shows as the copyright owner in Footer
+  email: seba.public@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://github.com/sebay       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
