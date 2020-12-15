@@ -23,6 +23,9 @@ author: Sebastien Auvray                  # change to your full name
 
 avatar: /assets/img/sample/avatar_gears.png   # support internet resources
 
+show_excerpts: true
+excerpt_separator: <!--more-->
+
 github:
   username: sebay             # change to your github username
 

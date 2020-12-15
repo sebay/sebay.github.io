@@ -59,7 +59,13 @@ layout: page
     <div class="post-content">
       <p>
         {% include no-linenos.html content=post.content %}
+        <!--
         {{ content | markdownify | strip_html | truncate: 200 }}
+        -->
+        {{ post.excerpt }}
+        {% if post.excerpt != post.content %}
+        <a href="{{ site.baseurl }}{{ post.url }}">... Read more</a>
+        {% endif %}
       </p>
     </div>
 
